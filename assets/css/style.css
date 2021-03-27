@@ -11,6 +11,7 @@
   --almost-white: whitesmoke;
   --med-gray: gray;
   --light-gray: lightgray;
+  --light-purple: lavender;
 }
 
 body {
@@ -21,7 +22,6 @@ body {
 }
 
 /* Name */
-/* Banner and Job Title */
 .header-image {
     position: relative;
     text-align: center;
@@ -34,38 +34,16 @@ body {
     transform: translate(-50%, -50%);
     font-size: 2.5em;
     font-weight: bold;
-    color: var(--med-color);
+    color: var(--dark-color);
     width: 90vw;
     background-color: rgba(228, 241, 254, 0.8);
   }
 
-/* h1 {
-  color: var(--med-color);
-  background-image: url("../images/blue-blocks-1.jpg");
-  background-repeat: no-repeat;
-  background-size: 1vw;
-  padding: 10px 10px 10px 10px;
-  margin: 0 0 10px 0;
-  border: 2px solid var(--med-color);
-  border-radius: 10px;
-  font-size: 40px;
-  text-align: center;
-  font-weight: bold;
-} */
-
 /* Header Nav Buttons */
-#about-me-nav {
-  grid-area: about-me-nav;
-}
-#work-nav {
-  grid-area: work-nav;
-}
-#contact-me-nav {
-  grid-area: contact-me-nav;
-}
-#resume-nav {
-  grid-area: resume-nav;
-}
+#about-me-nav { grid-area: about-me-nav; }
+#work-nav { grid-area: work-nav; }
+#contact-me-nav { grid-area: contact-me-nav; }
+#resume-nav { grid-area: resume-nav; }
 
 .nav-links {
   display: grid;
@@ -80,10 +58,10 @@ body {
 }
 
 .button {
-  background: var(--light-gray);
+  background: var(--light-purple);
   border: 2px solid var(--med-color);
   color: var(--med-color);
-  font-weight: bold;
+  font-weight: bolder;
   padding: 5px 5px;
   margin: 3px;
   border-radius: 20px;
@@ -93,7 +71,7 @@ body {
 }
 
 .button:hover {
-  background: var(--light-color);
+  background: var(--light-gray);
 }
 
 /* Banner and Job Title */
@@ -117,7 +95,7 @@ h3 {
   font-size: 1.3em;
   text-align: center;
   padding-bottom: 0;
-  margin-bottom: 0;
+  margin: 10px 0 0 0;
 }
 
 /* Picture and Intro */
