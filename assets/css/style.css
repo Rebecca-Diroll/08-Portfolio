@@ -119,6 +119,12 @@ h3 {
   padding: 10px;
 }
 
+.resume-text {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 /* Sectional Break - Visible Line */
 hr {
   border: none;
