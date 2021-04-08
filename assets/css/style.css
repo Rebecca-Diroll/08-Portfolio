@@ -184,6 +184,19 @@ img {
   line-height: 1.4;
 }
 
+.phone:hover,
+.email:hover,
+.github:hover,
+.linkedin:hover,
+.resume-heading:hover {
+  opacity: 0.5;
+}
+
+.resume-text:hover {
+  background-color: var(--light-color);
+  opacity: 0.7;
+}
+
 /* Footer */
 .footer-links ul {
   list-style-type: none;
