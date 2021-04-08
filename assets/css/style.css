@@ -110,8 +110,8 @@ h3 {
   height: auto;
   /* padding: 20px 15px 5px 15px; */
   border-radius: 5px;
-  margin: 0 5px 0 0;
-  border: 3px solid var(--light-gray);
+  margin: 0 15px 0 8px;
+  /* border: 3px solid var(--light-gray); */
 }
 
 .about-me-info,
@@ -133,18 +133,18 @@ hr {
   text-align: center;
 }
 
-.html,
-.css,
-.javascript,
-.calculate {
+.project,
+.quiz,
+.scheduler,
+.weather {
   position: relative;
   text-align: center;
 }
 
-.html-heading,
-.css-heading,
-.javascript-heading,
-.calculate-heading {
+.project-heading,
+.quiz-heading,
+.scheduler-heading,
+.weather-heading {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -157,11 +157,16 @@ hr {
   border-radius: 5px;
 }
 
-.html:hover,
-.css:hover,
-.javascript:hover,
-.calculate:hover {
-  filter: sepia(100%);
+.project:hover,
+.quiz:hover,
+.scheduler:hover,
+.weather:hover {
+  opacity: 1;
+  transition: 0.5s ease;
+}
+
+img {
+  border: 3px solid var(--light-gray);
 }
 
 /* Contact Me */
