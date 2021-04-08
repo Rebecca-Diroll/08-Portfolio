@@ -184,6 +184,15 @@ img {
   line-height: 1.4;
 }
 
+.phone,
+.email,
+.github,
+.linkedin,
+.resume-heading,
+.resume-text {
+  color:var(--med-color);
+}
+
 .phone:hover,
 .email:hover,
 .github:hover,
