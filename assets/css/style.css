@@ -85,7 +85,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: bold;
   color: white;
 }
@@ -213,31 +213,12 @@ img {
 /* Media Queries and Responsive Design */
 
 /* Extra small devices: phone */
-/* @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 1.7em;
-    }
-    .nav-links li {
-        font-size: 0.8em;
-    }        
-    body {
-        font-size: 1em;
-    }
-    h3 {
-        font-size: 1.3em;
-    }
-    .web-developer-heading {
-        font-size: 1.3em;
-    }
-    .footer-links li {
-        font-size: 0.6em;
-    }
-}
-*/
+/* @media only screen and (max-width: 600px) */
+
 /* Small devices: large phone, portrait tablet */
-/* @media only screen and (min-width: 600px) {
-    h1 {
-        font-size: 1.9em;
+@media only screen and (min-width: 600px) {
+    .heading {
+        font-size: 2.5em;
     }
     .nav-links {
         display: grid;
@@ -253,7 +234,7 @@ img {
         font-size: 1.5em;
     }
     .web-developer-heading {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
     .footer-links li {
         font-size: 0.9em;
